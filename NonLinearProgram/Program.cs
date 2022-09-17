@@ -36,6 +36,9 @@ namespace NonLinearDataStructure
             hash.Display();
             int freq = hash.Get("avoidable");
             Console.WriteLine("Frequency of the word Avoidable:" + freq);
+            hash.Remove("avoidable");
+            freq = hash.Get("avoidable");
+            Console.WriteLine("Frequncy of the word Avoidable after removing:" + freq);
         }
     }
 }

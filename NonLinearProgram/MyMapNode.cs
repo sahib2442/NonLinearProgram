@@ -51,5 +51,10 @@ namespace LinkedListProblem
         {
             throw new NotImplementedException();
         }
+
+        internal void Remove(string v)
+        {
+            throw new NotImplementedException();
+        }
     }
 }
