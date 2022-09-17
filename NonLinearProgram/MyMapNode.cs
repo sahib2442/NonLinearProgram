@@ -46,5 +46,10 @@ namespace LinkedListProblem
                 }
             }
         }
+
+        internal int Get(string v)
+        {
+            throw new NotImplementedException();
+        }
     }
 }
